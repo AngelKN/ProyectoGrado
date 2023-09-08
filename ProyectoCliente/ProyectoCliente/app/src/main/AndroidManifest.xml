@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="red.lisgar.proyecto">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cliente_nomostrar"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".login.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".usuario.MisPublicacionesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminActualizarCupoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminAgregarCupoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminCuposActivity"
+            android:exported="false" />
+        <activity
+            android:name=".usuario.UsuPortalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".usuario.UsuPuntosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminActualizarUsuarioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminUsuariosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminActualizarPuntoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminAgregarPuntosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminPuntosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminActualizarParadaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminAgregarParadaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminParadasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminAgregarRutaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".usuario.UsuRutasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".usuario.UsuVisualizarRutaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminActualizarRutaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminRutasActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Cliente_nomostrar" />
+        <activity
+            android:name=".login.SigninActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Cliente_nomostrar" />
+        <activity
+            android:name=".constants.SplashScreamActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Cliente_nomostrar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

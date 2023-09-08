@@ -1,0 +1,22 @@
+
+q
+java:S1192<"ODefine a constant instead of duplicating this literal "SELECT * FROM " 4 times.(…¬íàúÿÿÿÿ8¾âª¼©0
+j
+java:S1192<"HDefine a constant instead of duplicating this literal " WHERE " 4 times.(…¬íàúÿÿÿÿ8¿âª¼©0
+r	java:S1179"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×õ›„şÿÿÿÿ8Áâª¼©0
+r	java:S117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œú¸Öüÿÿÿÿ8Áâª¼©0
+m	java:S117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î£û8Ââª¼©0
+c
+java:S1126="AReplace this if-then-else statement by a single return statement.(º×öòùÿÿÿÿ8Ïãª¼©0
+c
+java:S1126F"AReplace this if-then-else statement by a single return statement.(º×öòùÿÿÿÿ8Óãª¼©0
+D
+java:S1481N"'Remove this unused "db" local variable.(¼Í’8âãª¼©0
+^
+java:S1126O"AReplace this if-then-else statement by a single return statement.(Ö¦×è8âãª¼©0
+D
+java:S1481W"'Remove this unused "db" local variable.(¼Í’8âãª¼©0
+^
+java:S6353["<Use concise character class syntax '\\d' instead of '[0-9]'.(âî²ıÿÿÿÿ8×äª¼©0
+c
+java:S1126y"AReplace this if-then-else statement by a single return statement.(º×öòùÿÿÿÿ8âäª¼©0

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imgBarra"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"/>
+
+        <ImageView
+            android:id="@+id/btnMas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="18dp"
+            android:clickable="true"
+            android:longClickable="true"
+            android:src="@drawable/ic_back_flecha" />
+
+        <Button
+            android:id="@+id/rolToolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:textColor="#CCC5C5"
+            android:textSize="20sp"
+            android:background="@drawable/back_login_btnlogin"/>
+
+        <TextView
+            android:id="@+id/nombreToolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#CCC5C5"
+            android:textSize="15sp" />
+
+        <ImageButton
+            android:id="@+id/btnRutas"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="70dp"
+            android:background="@color/black"
+            android:src="@drawable/rutaicono" />
+
+        <ImageButton
+            android:id="@+id/btnCupos"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="70dp"
+            android:background="@color/black"
+            app:srcCompat="@drawable/cupoicono" />
+
+        <ImageButton
+            android:id="@+id/btnPuntos"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="70dp"
+            android:background="@color/black"
+            app:srcCompat="@drawable/puntoicono" />
+    </RelativeLayout>
+
+</RelativeLayout>

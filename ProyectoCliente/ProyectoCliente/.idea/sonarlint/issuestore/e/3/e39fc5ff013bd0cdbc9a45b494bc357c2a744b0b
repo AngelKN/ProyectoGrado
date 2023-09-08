@@ -1,0 +1,15 @@
+
+k
+java:S1192;"ODefine a constant instead of duplicating this literal "SELECT * FROM " 3 times.(ñ8¥ëª¼©0
+e
+java:S1192n"HDefine a constant instead of duplicating this literal "UPDATE " 3 times.(ÚÈé¸8§ëª¼©0
+c
+java:S1192n"FDefine a constant instead of duplicating this literal " SET " 3 times.(ÚÈé¸8§ëª¼©0
+d
+java:S1192;"HDefine a constant instead of duplicating this literal " WHERE " 7 times.(ñ8¨ëª¼©0
+ˆ
+java:S4165y"fRemove this useless assignment; "correcto" already holds the assigned value along all execution paths.(†Ü­Ãıÿÿÿÿ8âìª¼©0
+‰
+java:S4165 "fRemove this useless assignment; "correcto" already holds the assigned value along all execution paths.(†Ü­Ãıÿÿÿÿ8Şìª¼©0
+‰
+java:S4165²"fRemove this useless assignment; "correcto" already holds the assigned value along all execution paths.(†Ü­Ãıÿÿÿÿ8áìª¼©0

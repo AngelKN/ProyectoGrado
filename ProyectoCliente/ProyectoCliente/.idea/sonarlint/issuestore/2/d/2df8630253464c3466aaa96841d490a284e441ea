@@ -1,0 +1,12 @@
+
+k	java:S117,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏÛ£Ÿûÿÿÿÿ
+k	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î‡Éÿÿÿÿÿ
+k	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë®’¶ıÿÿÿÿ
+k	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ—¸şÿÿÿÿ
+C
+java:S16048"(Make this anonymous inner class a lambda(ªïË²øÿÿÿÿ
+C
+java:S1604Z"(Make this anonymous inner class a lambda(…áëŠøÿÿÿÿ
+m
+java:S3776!"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¨Œşÿÿÿÿ
+X	java:S125t"<This block of commented-out lines of code should be removed.(Ÿş·8îŒ«Œ¤0

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".admin.AdminAgregarParadaActivity">
+    <include layout="@layout/toolbar"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="@string/agregarParada"
+        android:textColor="#8da000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/ubicacionAgregarParada"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/back_login_txt"
+                android:ems="10"
+                android:hint="@string/ubicacionParada"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:textAlignment="textStart"
+                android:textColor="#8da000"
+                android:textColorHint="#8da000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/mapaAgregarParada"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/back_login_txt"
+                android:ems="10"
+                android:hint="@string/mapaParada"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:textAlignment="textStart"
+                android:textColor="#8da000"
+                android:textColorHint="#8da000"
+                android:textSize="20sp" />
+            <Button
+                android:id="@+id/btnAgregarParada"
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/back_login"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="@string/agregarParada"
+                android:textAllCaps="true"
+                android:textColor="#BAA7A7"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

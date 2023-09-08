@@ -1,0 +1,9 @@
+
+j
+java:S11922"HDefine a constant instead of duplicating this literal " WHERE " 3 times.(èŒºíıÿÿÿÿ8‰àª¼©0
+r	java:S117/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°áùÿÿÿÿ8‰àª¼©0
+m	java:S1178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ğ†Ğ8‰àª¼©0
+^
+java:S11263"AReplace this if-then-else statement by a single return statement.(úˆ›Ø8®áª¼©0
+^
+java:S1126<"AReplace this if-then-else statement by a single return statement.(úˆ›Ø8±áª¼©0

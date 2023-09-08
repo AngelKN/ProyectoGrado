@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".admin.AdminActualizarRutaActivity">
+    <include layout="@layout/toolbar"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="@string/actualizarRuta"
+        android:textColor="#8da000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nombreRuta"
+                android:textColor="#656565"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/nombreActualizarRuta"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/back_login_txt"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:labelFor="@+id/textNombre"
+                android:paddingLeft="20dp"
+                android:textAlignment="textStart"
+                android:textColor="#D6D4D4"
+                android:textColorHint="#C3BEBE"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textDescripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/descripcionRuta"
+                android:textColor="#656565"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/descripcionActualizarRuta"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/back_login_txt"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:textAlignment="textStart"
+                android:labelFor="@+id/textAutor"
+                android:textColor="#D6D4D4"
+                android:textColorHint="#C3BEBE"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/textPrecio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/precioRuta"
+                android:textColor="#656565"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/precioActualizarRuta"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/back_login_txt"
+                android:ems="10"
+                android:inputType="number"
+                android:paddingLeft="20dp"
+                android:textAlignment="textStart"
+                android:labelFor="@+id/textAutor"
+                android:textColor="#D6D4D4"
+                android:textColorHint="#C3BEBE"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textFoto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fotoRuta"
+                android:textColor="#656565"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/fotoActualizarRuta"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/back_login_txt"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:labelFor="@+id/textCantidad"
+                android:textAlignment="textStart"
+                android:textColor="#D6D4D4"
+                android:textColorHint="#C3BEBE"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textTipo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tipoRuta"
+                android:textColor="#656565"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"/>
+
+
+            <EditText
+                android:id="@+id/tipoActualizarRuta"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/back_login_txt"
+                android:ems="10"
+                android:labelFor="@+id/textUrl"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:textAlignment="textStart"
+                android:textColor="#D6D4D4"
+                android:textColorHint="#C3BEBE"
+                android:textSize="20sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/spinner1"
+                    android:layout_width="120dp"
+                    android:layout_height="63dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+                    android:spinnerMode="dialog"
+                    android:prompt="@string/seleccionarParada"
+                    android:background="@drawable/back_login_txt"
+                    android:ems="10"
+                    android:paddingLeft="20dp"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <ImageButton
+                        android:id="@+id/agregar1"
+                        android:layout_width="63dp"
+                        android:layout_height="31dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/back_login_txt"
+                        android:src="@drawable/agregar"/>
+                    <ImageButton
+                        android:id="@+id/agregar2"
+                        android:layout_width="63dp"
+                        android:layout_height="31dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/back_login_txt"
+                        android:src="@drawable/eliminar"/>
+
+                </LinearLayout>
+                <Spinner
+                    android:id="@+id/spinner2"
+                    android:layout_width="120dp"
+                    android:layout_height="63dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
+                    android:spinnerMode="dialog"
+                    android:prompt="@string/seleccionar"
+                    android:background="@drawable/back_login_txt"
+                    android:ems="10"
+                    android:paddingLeft="20dp"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btnActualizarRuta"
+                    android:layout_width="192dp"
+                    android:layout_height="76dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/back_login"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/actualizarRuta"
+                    android:textAllCaps="true"
+                    android:textColor="#BAA7A7"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnEliminarRuta"
+                    android:layout_width="181dp"
+                    android:layout_height="76dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="50dp"
+                    android:background="@drawable/back_login"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="Eliminar Ruta"
+                    android:textAllCaps="true"
+                    android:textColor="#BAA7A7"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

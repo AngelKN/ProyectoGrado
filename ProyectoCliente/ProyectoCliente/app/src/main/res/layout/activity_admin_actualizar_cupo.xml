@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".admin.AdminActualizarCupoActivity">
+    <include layout="@layout/toolbar"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="Actualizar Publicación"
+        android:textColor="#8da000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txtPrecio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/precioCupo"
+                android:textColor="#656565"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/precioActualizarCupo"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/back_login_txt"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:labelFor="@+id/textNombre"
+                android:paddingLeft="20dp"
+                android:textAlignment="textStart"
+                android:textColor="#D6D4D4"
+                android:textColorHint="#C3BEBE"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtHoraI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/horaICupo"
+                android:textColor="#656565"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/horaIActualizarCupo"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/back_login_txt"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:textAlignment="textStart"
+                android:labelFor="@+id/textAutor"
+                android:textColor="#D6D4D4"
+                android:textColorHint="#C3BEBE"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtHoraS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/horaSCupo"
+                android:textColor="#656565"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp" />
+
+
+            <Button
+                android:id="@+id/horaSActualizarCupo"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/back_login_txt"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:textAlignment="textStart"
+                android:labelFor="@+id/textAutor"
+                android:textColor="#D6D4D4"
+                android:textColorHint="#C3BEBE"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtDescripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/descripcionCupo"
+                android:textColor="#656565"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/descripcionActualizarCupo"
+                android:layout_width="match_parent"
+                android:layout_height="93dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/back_login_txt"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:labelFor="@+id/textAutor"
+                android:paddingLeft="20dp"
+                android:textAlignment="textStart"
+                android:textColor="#D6D4D4"
+                android:textColorHint="#C3BEBE"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/userCupo"
+                android:textColor="#656565"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/usuarioActualizarCupo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/back_login_txt"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:textAlignment="textStart"
+                android:labelFor="@+id/textAutor"
+                android:textColor="#D6D4D4"
+                android:textColorHint="#C3BEBE"
+                android:textSize="20sp" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btnActualizarCupo"
+                    android:layout_width="192dp"
+                    android:layout_height="76dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/back_login"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/actualizarCupo"
+                    android:textAllCaps="true"
+                    android:textColor="#BAA7A7"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnEliminarCupo"
+                    android:layout_width="181dp"
+                    android:layout_height="76dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="50dp"
+                    android:background="@drawable/back_login"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:text="Eliminar Cupo"
+                    android:textAllCaps="true"
+                    android:textColor="#BAA7A7"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
